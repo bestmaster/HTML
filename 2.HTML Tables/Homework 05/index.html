@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Homework 5. Problem 2. HTML Form.
+Create a Web Page like the following using forms:
+-->
+<html>
+    <head>
+        <title>Домашно №5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+    <body>
+        <div id="wrapper">
+
+            <table>
+                <tr>
+                    <th>Member name:</th>
+                    <td>
+                        <input type="text" name="Име" placeholder="Име" >
+                        <b>*req</b>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>
+                        <input type="email" required name="true" pattern="[^ @]*@[^ @].[^ @]" placeholder="e-mail">
+                        <b>*req</b>
+                    </td>
+                </tr>
+                <tr>
+                    <th>School:</th>
+                    <td>
+                        <input type="text" name="Име" placeholder="Училище" >
+                        <b>*req</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input id="submit" type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </body>
+</html>
