@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+Homework 7. Problem 1. Registration form
+Create a Web form that looks like this sample:
+-->
+<html>
+    <head>
+        <title>Домашно №7</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        
+        <table>
+            <tr class="row">
+                <td>Име</td>
+                <td>
+                    <input id="name" type="text" name="Име" placeholder="Цеко" >
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Фамилия</td>
+                <td>
+                    <input id="famely" type="text" name="Фамилия" placeholder="Сифоня" >
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Адрес</td>
+                <td>
+                    <input id="adres" type="text" name="Адрес" placeholder="бул.'Александър Малинов' 31">
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Град</td>
+                <td>
+                    <input id="City" type="text" name="Град" placeholder="София" >
+                    <input id="State" type="text" name="Област" placeholder="Област" >
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Пощенски код</td>
+                <td>
+                    <input id="Post" type="text" name="Пощенски код" placeholder="9325" >
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Държава</td>
+                <td>
+                    <select id="Country">
+                        <option>България</option>
+                        <option>Румъния</option>
+                        <option>Сърбия</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Код, префикс и номер</td>
+                <td>
+                    <input id="tel" type="tel" placeholder="+359" required name="true">
+                    <input id="tel1" type="tel" placeholder="88" required name="true">
+                    <input id="tel2" type="tel" placeholder="8334343" required name="true">
+                </td>
+            </tr>
+            <tr class="row">
+                <td>E-mail</td>
+                <td>
+                    <input id="email" type="email" required name="true" pattern="[^ @]*@[^ @].[^ @]" placeholder="academy@telerik.com">
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Дата на раждане</td>
+                <td>
+                    <input id="date" type="tel" placeholder="01" required name="true">
+                    <input id="date1" type="tel" placeholder="01" required name="true">
+                    <input id="date2" type="tel" placeholder="1970" required name="true">
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Пол</td>
+                <td>
+                    <select id="sex">
+                        <option>Мъж</option>
+                        <option>Жена</option>
+                        <option>Азис</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Дата на включване</td>
+                <td>Пролет 2015
+                    <input id="radio" type="radio" name="Season" value="Spring">
+                    Лято 2015
+                    <input id="radio1" type="radio" name="Season" value="Summer">
+                </td>
+            </tr>
+            <tr class="row">
+                <td>Коментари</td>
+                <td>
+                    <textarea cols="30" rows="10" id="Coments"></textarea>
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="row1" colspan="2">
+                    <input id="submit" type="submit" value="Изпрати">
+                    <input id="reset" type="reset" name="RST Button" value="Изчисти">
+                </td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
